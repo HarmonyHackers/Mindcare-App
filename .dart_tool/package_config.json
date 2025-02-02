@@ -56,6 +56,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_onboarding_slider",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/flutter_onboarding_slider-1.0.11",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/anishhazra/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -104,10 +110,22 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "nested",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/provider-6.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "sky_engine",
@@ -170,7 +188,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2025-02-02T15:36:33.864171Z",
+  "generated": "2025-02-02T16:00:38.629046Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///Users/anishhazra/development/flutter",
