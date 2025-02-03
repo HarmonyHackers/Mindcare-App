@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding_slider/flutter_onboarding_slider.dart';
-import 'package:mindcare_app/Views/home_view.dart';
+import 'package:mindcare_app/Views/home/view/home_view.dart';
 
 class OnBoardingView extends StatelessWidget {
   const OnBoardingView({super.key});
