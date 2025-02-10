@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mindcare_app/Views/onboarding_view.dart';
+import 'package:mindcare_app/presentation/onboarding_screen/onboarding_view.dart';
 
 void main() {
   runApp(const MyApp());
