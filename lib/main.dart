@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:mindcare_app/Views/home_view.dart';
+import 'package:flutter/services.dart';
+import 'package:mindcare_app/presentation/onboarding_screen/onboarding_view.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]);
+  await SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+
   runApp(const MyApp());
 }
 
@@ -10,15 +18,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        scaffoldBackgroundColor: Colors.white,
-        appBarTheme: const AppBarTheme(color: Colors.white),
-        useMaterial3: true,
-      ),
-      home: const HomeView(),
+    return ResponsiveSizer(
+      builder: (context, orientation, screenType) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            scaffoldBackgroundColor: Colors.white,
+            appBarTheme: const AppBarTheme(color: Colors.white),
+            useMaterial3: true,
+          ),
+          home: const OnBoardingView(),
+        );
+      },
     );
   }
 }
