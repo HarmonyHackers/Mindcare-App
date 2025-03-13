@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding_slider/flutter_onboarding_slider.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mindcare_app/presentation/home_screen/screen/home_screen.dart';
 
 class OnBoardingView extends StatelessWidget {
@@ -22,17 +23,17 @@ class OnBoardingView extends StatelessWidget {
       finishButtonStyle: const FinishButtonStyle(
         backgroundColor: kDarkBlueColor,
       ),
-      skipTextButton: const Text(
+      skipTextButton: Text(
         'Skip',
-        style: TextStyle(
+        style: GoogleFonts.urbanist(
           fontSize: 16,
           color: kDarkBlueColor,
           fontWeight: FontWeight.w600,
         ),
       ),
-      trailing: const Text(
+      trailing: Text(
         'Login',
-        style: TextStyle(
+        style: GoogleFonts.urbanist(
           fontSize: 16,
           color: kDarkBlueColor,
           fontWeight: FontWeight.w600,
@@ -79,7 +80,7 @@ class OnBoardingView extends StatelessWidget {
           alignment: Alignment.center,
           width: MediaQuery.of(context).size.width,
           padding: const EdgeInsets.symmetric(horizontal: 40),
-          child: const Column(
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
@@ -89,7 +90,7 @@ class OnBoardingView extends StatelessWidget {
               Text(
                 'SLEEP WELL',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.urbanist(
                   color: Colors.white,
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
@@ -101,7 +102,7 @@ class OnBoardingView extends StatelessWidget {
               Text(
                 'Regular meditation enchances sleep by promoting calm, reducing stress, and boosting well-being.',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.urbanist(
                   color: Colors.white70,
                   fontSize: 15.0,
                   fontWeight: FontWeight.w600,
@@ -114,7 +115,7 @@ class OnBoardingView extends StatelessWidget {
           alignment: Alignment.center,
           width: MediaQuery.of(context).size.width,
           padding: const EdgeInsets.symmetric(horizontal: 40),
-          child: const Column(
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
@@ -124,7 +125,7 @@ class OnBoardingView extends StatelessWidget {
               Text(
                 'POSITIVE LIFE',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.urbanist(
                   color: Colors.white,
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
@@ -136,7 +137,7 @@ class OnBoardingView extends StatelessWidget {
               Text(
                 'Regular meditation fasters a harmonious balance of mind, emotion, and spirit for a richer life.',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.urbanist(
                   color: Colors.white70,
                   fontSize: 15.0,
                   fontWeight: FontWeight.w600,
@@ -149,7 +150,7 @@ class OnBoardingView extends StatelessWidget {
           alignment: Alignment.center,
           width: MediaQuery.of(context).size.width,
           padding: const EdgeInsets.symmetric(horizontal: 40),
-          child: const Column(
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
@@ -159,7 +160,7 @@ class OnBoardingView extends StatelessWidget {
               Text(
                 'MIND CONTROL',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.urbanist(
                   color: Colors.white,
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
@@ -171,7 +172,7 @@ class OnBoardingView extends StatelessWidget {
               Text(
                 'Meditation helps you master your mind improving mental clarity and insight.',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.urbanist(
                   color: Colors.white,
                   fontSize: 15.0,
                   fontWeight: FontWeight.w600,

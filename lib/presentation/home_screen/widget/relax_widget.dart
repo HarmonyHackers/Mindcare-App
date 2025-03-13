@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class RelaxWidget extends StatelessWidget {
   const RelaxWidget({super.key});
@@ -28,12 +29,21 @@ class RelaxWidget extends StatelessWidget {
         child: Column(
           children: [
             Icon(icon, color: Colors.white, size: 40),
-            const SizedBox(height: 10),
-            Text(title,
-                style: const TextStyle(
-                    color: Colors.white, fontWeight: FontWeight.bold)),
-            const SizedBox(height: 4),
-            Text(duration, style: const TextStyle(color: Colors.white70)),
+            SizedBox(height: 10),
+            Text(
+              title,
+              style: GoogleFonts.urbanist(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 4),
+            Text(
+              duration,
+              style: GoogleFonts.urbanist(
+                color: Colors.white70,
+              ),
+            ),
           ],
         ),
       ),

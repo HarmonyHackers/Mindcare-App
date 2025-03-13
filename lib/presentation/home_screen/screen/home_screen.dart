@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../widget/calm_widget.dart';
 import '../widget/feeling_test_widget.dart';
 import '../widget/mood_tracker_widget.dart';
@@ -33,9 +34,9 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text(
+              Text(
                 "Today",
-                style: TextStyle(
+                style: GoogleFonts.urbanist(
                   color: Colors.white,
                   fontSize: 26,
                   fontWeight: FontWeight.bold,
@@ -43,7 +44,7 @@ class HomeScreen extends StatelessWidget {
               ),
               Text(
                 formattedDate,
-                style: const TextStyle(
+                style: GoogleFonts.urbanist(
                   color: Colors.white70,
                   fontSize: 16,
                 ),
@@ -68,10 +69,10 @@ class HomeScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ListView(
-          children: const [
+          children: [
             Text(
               "Good Evening,\nAnish Hazra",
-              style: TextStyle(
+              style: GoogleFonts.urbanist(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
@@ -82,7 +83,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(height: 20),
             Text(
               "Choose your way to relax",
-              style: TextStyle(
+              style: GoogleFonts.urbanist(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                   color: Colors.white),

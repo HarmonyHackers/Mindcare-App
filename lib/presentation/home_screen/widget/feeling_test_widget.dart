@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class FeelingTestWidget extends StatelessWidget {
   const FeelingTestWidget({super.key});
@@ -8,9 +9,9 @@ class FeelingTestWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+        Text(
           "Feeling struggle?",
-          style: TextStyle(
+          style: GoogleFonts.urbanist(
               fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         const SizedBox(height: 10),
@@ -38,11 +39,20 @@ class FeelingTestWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(title,
-                style: const TextStyle(
-                    color: Colors.white, fontWeight: FontWeight.bold)),
+            Text(
+              title,
+              style: GoogleFonts.urbanist(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
             const SizedBox(height: 4),
-            Text(description, style: const TextStyle(color: Colors.white70)),
+            Text(
+              description,
+              style: GoogleFonts.urbanist(
+                color: Colors.white70,
+              ),
+            ),
             const SizedBox(height: 8),
             ElevatedButton(
               onPressed: () {},

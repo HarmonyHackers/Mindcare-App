@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SupportWidget extends StatelessWidget {
   const SupportWidget({
@@ -22,12 +23,12 @@ class SupportWidget extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text("Goal",
-                      style: TextStyle(
+                  Text("Goal",
+                      style: GoogleFonts.urbanist(
                           color: Colors.green, fontWeight: FontWeight.bold)),
                   const SizedBox(height: 4),
-                  const Text("Losing motivation?",
-                      style: TextStyle(color: Colors.white)),
+                  Text("Losing motivation?",
+                      style: GoogleFonts.urbanist(color: Colors.white)),
                   const SizedBox(height: 4),
                   ElevatedButton(
                     onPressed: () {},
@@ -54,12 +55,12 @@ class SupportWidget extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text("Consultant",
-                      style: TextStyle(
+                  Text("Consultant",
+                      style: GoogleFonts.urbanist(
                           color: Colors.orange, fontWeight: FontWeight.bold)),
                   const SizedBox(height: 4),
-                  const Text("Feeling left-out?",
-                      style: TextStyle(color: Colors.white)),
+                  Text("Feeling left-out?",
+                      style: GoogleFonts.urbanist(color: Colors.white)),
                   const SizedBox(height: 4),
                   ElevatedButton(
                     onPressed: () {},

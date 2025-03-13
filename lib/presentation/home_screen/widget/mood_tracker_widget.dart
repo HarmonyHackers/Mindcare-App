@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MoodTrackerWidget extends StatelessWidget {
   const MoodTrackerWidget({super.key});
@@ -15,13 +16,13 @@ class MoodTrackerWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(width: 16),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   "Mood tracker",
-                  style: TextStyle(
+                  style: GoogleFonts.urbanist(
                     color: Colors.amber,
                     fontWeight: FontWeight.bold,
                   ),
@@ -29,7 +30,7 @@ class MoodTrackerWidget extends StatelessWidget {
                 SizedBox(height: 4),
                 Text(
                   "How are you feeling\ntoday?",
-                  style: TextStyle(
+                  style: GoogleFonts.urbanist(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                     fontSize: 18,
@@ -37,7 +38,7 @@ class MoodTrackerWidget extends StatelessWidget {
                 ),
                 SizedBox(height: 4),
                 Text("Increase awareness by tracking\nyour moods.",
-                    style: TextStyle(color: Colors.grey)),
+                    style: GoogleFonts.urbanist(color: Colors.grey)),
               ],
             ),
           ),

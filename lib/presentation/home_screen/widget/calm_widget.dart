@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CalmWidget extends StatelessWidget {
   const CalmWidget({
@@ -16,21 +17,30 @@ class CalmWidget extends StatelessWidget {
       child: Row(
         children: [
           const SizedBox(width: 16),
-          const Column(
+          Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Calm",
-                  style: TextStyle(
-                      color: Colors.orange, fontWeight: FontWeight.bold)),
+              Text(
+                "Calm",
+                style: GoogleFonts.urbanist(
+                  color: Colors.orange,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               SizedBox(height: 4),
               Text("Evening meditation\nto relax.",
-                  style: TextStyle(
+                  style: GoogleFonts.urbanist(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                     fontSize: 18,
                   )),
               SizedBox(height: 4),
-              Text("5 Min", style: TextStyle(color: Colors.grey)),
+              Text(
+                "5 Min",
+                style: GoogleFonts.urbanist(
+                  color: Colors.grey,
+                ),
+              ),
             ],
           ),
           const Spacer(),

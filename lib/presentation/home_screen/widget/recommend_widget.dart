@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class RecommendWidget extends StatelessWidget {
   const RecommendWidget({super.key});
@@ -8,9 +9,9 @@ class RecommendWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+        Text(
           "Recommend for you",
-          style: TextStyle(
+          style: GoogleFonts.urbanist(
               fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         const SizedBox(height: 10),
@@ -44,13 +45,22 @@ class RecommendWidget extends StatelessWidget {
       child: Column(
         children: [
           Icon(icon, color: Colors.white, size: 40),
-          const SizedBox(height: 10),
-          Text(title,
-              style: const TextStyle(
-                  color: Colors.white, fontWeight: FontWeight.bold)),
-          const SizedBox(height: 4),
-          Text(subtitle,
-              style: const TextStyle(color: Colors.white70, fontSize: 12)),
+          SizedBox(height: 10),
+          Text(
+            title,
+            style: GoogleFonts.urbanist(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          SizedBox(height: 4),
+          Text(
+            subtitle,
+            style: GoogleFonts.urbanist(
+              color: Colors.white70,
+              fontSize: 12,
+            ),
+          ),
         ],
       ),
     );
