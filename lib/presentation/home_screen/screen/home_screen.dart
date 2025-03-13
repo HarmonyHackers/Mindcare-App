@@ -52,19 +52,16 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
         actions: [
-          IconButton(
-            icon: const Icon(
-              Icons.notifications_none,
-              color: Colors.white,
+          Padding(
+            padding: const EdgeInsets.only(right: 10),
+            child: IconButton(
+              icon: const Icon(
+                Icons.person,
+                color: Colors.white,
+                size: 35,
+              ),
+              onPressed: () {},
             ),
-            onPressed: () {},
-          ),
-          IconButton(
-            icon: const Icon(
-              Icons.favorite_border,
-              color: Colors.white,
-            ),
-            onPressed: () {},
           ),
         ],
       ),
@@ -75,9 +72,10 @@ class HomeScreen extends StatelessWidget {
             Text(
               "Good Evening,\nAnish Hazra",
               style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white),
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
             ),
             SizedBox(height: 20),
             CalmWidget(),
@@ -108,8 +106,7 @@ class HomeScreen extends StatelessWidget {
         unselectedItemColor: Colors.grey,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Today'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.library_books), label: 'Courses'),
+          BottomNavigationBarItem(icon: Icon(Icons.chat), label: 'Chat'),
           BottomNavigationBarItem(icon: Icon(Icons.flag), label: 'Goals'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
         ],

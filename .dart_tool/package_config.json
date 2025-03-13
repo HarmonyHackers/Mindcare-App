@@ -27,9 +27,9 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/collection-1.19.0",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/collection-1.18.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "2.18"
     },
     {
       "name": "cupertino_icons",
@@ -51,9 +51,9 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/flutter_lints-4.0.0",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/flutter_lints-5.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.5"
     },
     {
       "name": "flutter_onboarding_slider",
@@ -75,13 +75,13 @@
     },
     {
       "name": "leak_tracker",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/leak_tracker-10.0.7",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.8",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.5",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -93,9 +93,9 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/lints-4.0.0",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/lints-5.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.5"
     },
     {
       "name": "matcher",
@@ -147,9 +147,9 @@
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/stack_trace-1.12.0",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
@@ -159,9 +159,9 @@
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/string_scanner-1.3.0",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "2.18"
     },
     {
       "name": "term_glyph",
@@ -171,9 +171,9 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/test_api-0.7.3",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/test_api-0.7.2",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.2"
     },
     {
       "name": "vector_math",
@@ -183,7 +183,7 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/vm_service-14.3.0",
+      "rootUri": "file:///Users/anishhazra/.pub-cache/hosted/pub.dev/vm_service-14.2.5",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -194,10 +194,10 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2025-02-10T16:08:11.545797Z",
+  "generated": "2025-03-13T06:44:15.121845Z",
   "generator": "pub",
-  "generatorVersion": "3.6.2",
+  "generatorVersion": "3.5.3",
   "flutterRoot": "file:///Users/anishhazra/development/flutter",
-  "flutterVersion": "3.27.4",
+  "flutterVersion": "3.24.3",
   "pubCache": "file:///Users/anishhazra/.pub-cache"
 }
